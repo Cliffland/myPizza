@@ -18,6 +18,17 @@ $document(document).ready(function(){
         $('.extra-button').show();
         $('.btn .order').hide();
 
+        $('#inputSize').html($('.size option:selected').text() + " - " + sizeOfPizza);
+        $('inputToppings').html($('.toppings option:selected').text() + "-" + toppingsOfPizza);
+        $('inputCrust').html($('.crust option:selected').text() + "-" + crustOfPizza);
         
+        function Pizza(orderNo, size, toppings, crust, total){
+            this.orderNo = orderNo;
+            this.size = size;
+            this.toppings = toppings;
+            this.crust = crust;
+            this.total = total;
+            this.orderNo = orderNo;
+        }
     });
 });
