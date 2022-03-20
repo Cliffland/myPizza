@@ -61,6 +61,12 @@ $document(document).ready(function(){
             $('.extra-info .location').show();
             $('.extra-info h5 span').html(grandTotal + 200);
         });
+        $('.btn .no').click(function(){
+            $('.extra-info h5').hide();
+            $('.btn .yes').hide();
+            $('.btn .no').hide();
+            $('.extra-info .location').show();
+        });
         
     });
 });
