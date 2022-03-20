@@ -53,6 +53,14 @@ $document(document).ready(function(){
             grandTotal = grandTotal + total;
 
             $('.extra-info h5 span').html(grandTotal);
-        })
+        });
+        $('.btn .yes').click(function(){
+            $('.extra-info h5').hide();
+            $('.btn .yes').hide();
+            $('.btn .no').hide();
+            $('.extra-info .location').show();
+            $('.extra-info h5 span').html(grandTotal + 200);
+        });
+        
     });
 });
