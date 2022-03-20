@@ -67,6 +67,11 @@ $document(document).ready(function(){
             $('.btn .no').hide();
             $('.extra-info .location').show();
         });
-        
+        $('.btn .complete').click(function(){
+            var location = $('.extra-info .location input').val();
+            $('.extra-info .po').show();
+            $('.extra-info .location').hide();
+            $('.extra-info .po span').html(location);
+        });
     });
 });
