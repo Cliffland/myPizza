@@ -43,5 +43,16 @@ $document(document).ready(function(){
             var newRow = '<tr><th scope="row">' + newPizza.orderNo + '</th><td id="size">' + $(".size option:selected").text() + "-" + newPizza.size + '</td><td id="toppings">' + $(".toppings option:selected").text() + "-" + newPizza.toppings + '</td><td = id="crust">' + $(".crust option:selected").text() + "-" + newPizza.crust + '</td><td id="total">' + newPizza.total + '</td></tr>'
             $("#pizza").append(newRow);
         });
+        $('.btn .check-out').click(function(){
+            $('.btn .more-pizza').hide();
+            $('.btn .check-out').hide();
+            $('.extra-info').show();
+            $('.btn .yes').show();
+            $('.btn .no').show();
+            $('.extra-info .location').hide();
+            grandTotal = grandTotal + total;
+
+            $('.extra-info h5 span').html(grandTotal);
+        })
     });
 });
