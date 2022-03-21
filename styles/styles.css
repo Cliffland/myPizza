@@ -1,4 +1,4 @@
-h1,h3,.p{
+h1,h2,.p{
     text-align: center;
     font-family: 'Pacifico', cursive;
     color: #fff;
@@ -20,4 +20,5 @@ body{
 h5,h6,tr,.po,h4{
     color: #fff;
 }
+
 
