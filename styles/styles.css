@@ -1,8 +1,23 @@
 h1,h3,.p{
     text-align: center;
     font-family: 'Pacifico', cursive;
-    color: #000;
+    color: #fff;
 }
 h4{
     text-align: center;
 }
+footer{
+    color: #fff;
+}
+body{
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bi{
+    color: #fff;
+}
+h5,h6,tr,.po,h4{
+    color: #fff;
+}
+
