@@ -41,34 +41,30 @@
             </header><br>
             <div class="row pizzaImg">
                 <div class="col-md-4 col-sm-12">
-                    <img src="#" alt="pizza1"><br><br>
-                    <h4>Pizza</h4><br>
+                    <img class="pizza1" src="#" alt="pizza1" ><br><br>
+                    <h4 class="pizza1" >Pizza</h4><br>
                     <select class="form-select size" name="size" id="inputSize">
-                        <option selected>Choose size...</option>
-                        <option value="size1">Regular</option>
-                        <option value="size2">Medium</option>
-                        <option value="size3">Large</option>
-                        <option value="size4">Mega</option>
+                        <option label="Small" value="500">Small</option>
+                        <option label="Medium" value="750">Medium</option>
+                        <option label="Large" value="950">Large</option>
                     </select>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <img src="#" alt="pizza2"><br><br>
-                    <h4>Toppings</h4><br>
+                    <img class="pizza2" src="#" alt="pizza2"><br><br>
+                    <h4 class="pizza2">Toppings</h4><br>
                     <select class="form-select toppings" name="toppings" id="inputToppings">
-                        <option selected>Choose toppings...</option>
-                        <option value="toppings1">Cheese</option>
-                        <option value="toppings2">Pepperoni</option>
-                        <option value="toppings3">Olives</option>
+                        <option label="Cheese" value="50">Cheese</option>
+                        <option label="Pepperoni" value="80">Pepperoni</option>
+                        <option label="Olives" value="100">Olives</option>
                     </select>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <img src="#" alt="pizza3"><br><br>
-                    <h4>Crust</h4><br>
+                    <img class="pizza3" src="#" alt="pizza3"><br><br>
+                    <h4 class="pizza3">Crust</h4><br>
                     <select class="form-select crust" name="crust" id="inputCrust">
-                        <option selected>Choose crust...</option>
-                        <option value="crust1">Crispy</option>
-                        <option value="crust2">Stuffed</option>
-                        <option value="crust3">Gluten free</option>
+                        <option label="Stuffed" value="200">Stuffed</option>
+                        <option label="Crispy" value="300">Crispy</option>
+                        <option label="Gluten-free" value="500">Gluten free</option>
                     </select>
                 </div>
             </div><br>
@@ -99,7 +95,7 @@
         </table><br>
         <div class="extra-button">
             <div class="text-center">
-                <button class="btn btn-success more-pizza" type="submit">More Pizza</button>
+                <button class="btn btn-success more-pizza" type="submit">More Pizza</button><br>
                 <div class="extra-info"><br>
                     <h5>The total is: <span></span></h5>
                     <h6>Would you like to spend an additional <b>ksh. 200/=</b> ?</h6>
@@ -145,6 +141,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="scripts/scripts.js"></script>
 </body>
 </html>

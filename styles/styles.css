@@ -1,7 +1,14 @@
 h1,h3,.p{
     text-align: center;
     font-family: 'Pacifico', cursive;
+    color: #000;
 }
 h4{
     text-align: center;
 }
+/* body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+} */
